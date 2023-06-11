@@ -143,7 +143,7 @@ twitch-videoad.js text/javascript
                     if (adBlockDiv == null) {
                         adBlockDiv = getAdBlockDiv();
                     }
-                    adBlockDiv.P.textContent = 'La pub est bloquee, la haute qualité arrive bientôt, merci de patienter...';
+                    adBlockDiv.P.textContent = 'Blocage de la pub en cours...';
                     adBlockDiv.style.display = 'block';
                 } else if (e.data.key == 'HideAdBlockBanner') {
                     if (adBlockDiv == null) {
